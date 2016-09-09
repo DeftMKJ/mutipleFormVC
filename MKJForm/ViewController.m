@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MKJFormViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)touch:(id)sender {
+    
+    MKJFormViewController *form = [[MKJFormViewController alloc] init];
+    [self.navigationController pushViewController:form animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

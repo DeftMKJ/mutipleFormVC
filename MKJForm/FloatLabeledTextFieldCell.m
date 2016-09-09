@@ -29,7 +29,7 @@
 
 #import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
 
-NSString * const XLFormRowDescriptorTypeFloatLabeledTextField = @"XLFormRowDescriptorTypeFloatLabeledTextField";
+NSString * const XLFormRowDescriptorTypeFloatLabeledTextField111 = @"XLFormRowDescriptorTypeFloatLabeledTextField111";
 
 const static CGFloat kVMargin = 8.0f;
 const static CGFloat kFloatingLabelFontSize = 11.0f;
@@ -44,7 +44,7 @@ const static CGFloat kFloatingLabelFontSize = 11.0f;
 
 +(void)load
 {
-    [XLFormViewController.cellClassesForRowDescriptorTypes setObject:[FloatLabeledTextFieldCell class] forKey:XLFormRowDescriptorTypeFloatLabeledTextField];
+    [XLFormViewController.cellClassesForRowDescriptorTypes setObject:[FloatLabeledTextFieldCell class] forKey:XLFormRowDescriptorTypeFloatLabeledTextField111];
 }
 
 -(JVFloatLabeledTextField *)floatLabeledTextField

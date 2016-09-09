@@ -24,7 +24,7 @@
 
 #import "XLFormBaseCell.h"
 
-extern NSString * const XLFormRowDescriptorTypeFloatLabeledTextField;
+extern NSString * const XLFormRowDescriptorTypeFloatLabeledTextField111;
 
 @interface FloatLabeledTextFieldCell : XLFormBaseCell
 

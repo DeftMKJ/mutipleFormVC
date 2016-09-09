@@ -24,7 +24,7 @@
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxp-gw-YTt">
-                        <rect key="frame" x="8" y="11" width="347" height="21"/>
+                        <rect key="frame" x="15" y="11" width="340" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="IK4-8e-SFs"/>
                         </constraints>
@@ -38,7 +38,7 @@
                     <constraint firstAttribute="centerY" secondItem="yhI-dj-sRk" secondAttribute="centerY" id="Vw4-h8-wId"/>
                     <constraint firstAttribute="trailingMargin" secondItem="yhI-dj-sRk" secondAttribute="trailing" id="W8E-PI-peE"/>
                     <constraint firstItem="Vxp-gw-YTt" firstAttribute="top" secondItem="hV6-xt-6pq" secondAttribute="top" constant="11" id="bgO-t8-Rjz"/>
-                    <constraint firstItem="Vxp-gw-YTt" firstAttribute="leading" secondItem="hV6-xt-6pq" secondAttribute="leadingMargin" id="mVS-0p-p0O"/>
+                    <constraint firstItem="Vxp-gw-YTt" firstAttribute="leading" secondItem="hV6-xt-6pq" secondAttribute="leadingMargin" constant="7" id="mVS-0p-p0O"/>
                     <constraint firstItem="yhI-dj-sRk" firstAttribute="leading" secondItem="Vxp-gw-YTt" secondAttribute="trailing" id="n0B-tg-Pik"/>
                 </constraints>
             </tableViewCellContentView>

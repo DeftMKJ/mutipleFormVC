@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105D0CDA26CA61FE9D064430 /* libPods-MKJForm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127068B27E33DDC380D03CCB /* libPods-MKJForm.a */; };
+		B13788E91D80F52700659CF1 /* XLFormRatingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13788E71D80F52700659CF1 /* XLFormRatingCell.m */; };
+		B13788EA1D80F52700659CF1 /* XLFormRatingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13788E81D80F52700659CF1 /* XLFormRatingCell.xib */; };
+		B13788ED1D80F58000659CF1 /* XLRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B13788EC1D80F58000659CF1 /* XLRatingView.m */; };
+		B13788F11D80F9E600659CF1 /* MKJFloatTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13788EF1D80F9E600659CF1 /* MKJFloatTextFieldCell.m */; };
+		B13788F21D80F9E600659CF1 /* MKJFloatTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13788F01D80F9E600659CF1 /* MKJFloatTextFieldCell.xib */; };
+		B13788F61D8106B400659CF1 /* MKJUploadImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B13788F41D8106B400659CF1 /* MKJUploadImageCell.m */; };
+		B13788F71D8106B400659CF1 /* MKJUploadImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13788F51D8106B400659CF1 /* MKJUploadImageCell.xib */; };
+		B13788F91D810CED00659CF1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13788F81D810CED00659CF1 /* MobileCoreServices.framework */; };
+		B156012C1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B156012B1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.m */; };
 		B166EF391D7E6FD900DB591E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF381D7E6FD900DB591E /* main.m */; };
 		B166EF3C1D7E6FD900DB591E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF3B1D7E6FD900DB591E /* AppDelegate.m */; };
 		B166EF3F1D7E6FD900DB591E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF3E1D7E6FD900DB591E /* ViewController.m */; };
@@ -15,6 +25,10 @@
 		B166EF471D7E6FD900DB591E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B166EF451D7E6FD900DB591E /* LaunchScreen.storyboard */; };
 		B166EF521D7E6FD900DB591E /* MKJFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF511D7E6FD900DB591E /* MKJFormTests.m */; };
 		B166EF5D1D7E6FD900DB591E /* MKJFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF5C1D7E6FD900DB591E /* MKJFormUITests.m */; };
+		B166EF6E1D7E92AB00DB591E /* MKJFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF6C1D7E92AB00DB591E /* MKJFormViewController.m */; };
+		B166EF6F1D7E92AB00DB591E /* MKJFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B166EF6D1D7E92AB00DB591E /* MKJFormViewController.xib */; };
+		B166EF791D7EAEC700DB591E /* MKJCarPlateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B166EF771D7EAEC700DB591E /* MKJCarPlateCell.m */; };
+		B166EF7A1D7EAEC700DB591E /* MKJCarPlateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B166EF781D7EAEC700DB591E /* MKJCarPlateCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		127068B27E33DDC380D03CCB /* libPods-MKJForm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKJForm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26442FBF16165C9EC19FA985 /* Pods-MKJForm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJForm.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKJForm/Pods-MKJForm.release.xcconfig"; sourceTree = "<group>"; };
+		4ED26F8691F9E22277D023B7 /* Pods-MKJForm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKJForm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKJForm/Pods-MKJForm.debug.xcconfig"; sourceTree = "<group>"; };
+		B13788E61D80F52700659CF1 /* XLFormRatingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRatingCell.h; sourceTree = "<group>"; };
+		B13788E71D80F52700659CF1 /* XLFormRatingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRatingCell.m; sourceTree = "<group>"; };
+		B13788E81D80F52700659CF1 /* XLFormRatingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFormRatingCell.xib; sourceTree = "<group>"; };
+		B13788EB1D80F58000659CF1 /* XLRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLRatingView.h; sourceTree = "<group>"; };
+		B13788EC1D80F58000659CF1 /* XLRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLRatingView.m; sourceTree = "<group>"; };
+		B13788EE1D80F9E600659CF1 /* MKJFloatTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJFloatTextFieldCell.h; sourceTree = "<group>"; };
+		B13788EF1D80F9E600659CF1 /* MKJFloatTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJFloatTextFieldCell.m; sourceTree = "<group>"; };
+		B13788F01D80F9E600659CF1 /* MKJFloatTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJFloatTextFieldCell.xib; sourceTree = "<group>"; };
+		B13788F31D8106B400659CF1 /* MKJUploadImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJUploadImageCell.h; sourceTree = "<group>"; };
+		B13788F41D8106B400659CF1 /* MKJUploadImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJUploadImageCell.m; sourceTree = "<group>"; };
+		B13788F51D8106B400659CF1 /* MKJUploadImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJUploadImageCell.xib; sourceTree = "<group>"; };
+		B13788F81D810CED00659CF1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B156012A1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatLabeledTextFieldCell.h; sourceTree = "<group>"; };
+		B156012B1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatLabeledTextFieldCell.m; sourceTree = "<group>"; };
 		B166EF341D7E6FD900DB591E /* MKJForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKJForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B166EF381D7E6FD900DB591E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B166EF3A1D7E6FD900DB591E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +82,12 @@
 		B166EF581D7E6FD900DB591E /* MKJFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKJFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B166EF5C1D7E6FD900DB591E /* MKJFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKJFormUITests.m; sourceTree = "<group>"; };
 		B166EF5E1D7E6FD900DB591E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B166EF6B1D7E92AB00DB591E /* MKJFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJFormViewController.h; sourceTree = "<group>"; };
+		B166EF6C1D7E92AB00DB591E /* MKJFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJFormViewController.m; sourceTree = "<group>"; };
+		B166EF6D1D7E92AB00DB591E /* MKJFormViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJFormViewController.xib; sourceTree = "<group>"; };
+		B166EF761D7EAEC700DB591E /* MKJCarPlateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJCarPlateCell.h; sourceTree = "<group>"; };
+		B166EF771D7EAEC700DB591E /* MKJCarPlateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJCarPlateCell.m; sourceTree = "<group>"; };
+		B166EF781D7EAEC700DB591E /* MKJCarPlateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKJCarPlateCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13788F91D810CED00659CF1 /* MobileCoreServices.framework in Frameworks */,
+				105D0CDA26CA61FE9D064430 /* libPods-MKJForm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +117,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1145E061B7343366FCC5A937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13788F81D810CED00659CF1 /* MobileCoreServices.framework */,
+				127068B27E33DDC380D03CCB /* libPods-MKJForm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B166EF2B1D7E6FD900DB591E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				B166EF501D7E6FD900DB591E /* MKJFormTests */,
 				B166EF5B1D7E6FD900DB591E /* MKJFormUITests */,
 				B166EF351D7E6FD900DB591E /* Products */,
+				DE62D1D27D1ACB8918273972 /* Pods */,
+				1145E061B7343366FCC5A937 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +151,10 @@
 		B166EF361D7E6FD900DB591E /* MKJForm */ = {
 			isa = PBXGroup;
 			children = (
+				B166EF701D7EAE1800DB591E /* CustomCell */,
+				B166EF6A1D7E927100DB591E /* VC */,
 				B166EF3A1D7E6FD900DB591E /* AppDelegate.h */,
 				B166EF3B1D7E6FD900DB591E /* AppDelegate.m */,
-				B166EF3D1D7E6FD900DB591E /* ViewController.h */,
-				B166EF3E1D7E6FD900DB591E /* ViewController.m */,
-				B166EF401D7E6FD900DB591E /* Main.storyboard */,
-				B166EF431D7E6FD900DB591E /* Assets.xcassets */,
-				B166EF451D7E6FD900DB591E /* LaunchScreen.storyboard */,
-				B166EF481D7E6FD900DB591E /* Info.plist */,
 				B166EF371D7E6FD900DB591E /* Supporting Files */,
 			);
 			path = MKJForm;
@@ -117,6 +163,9 @@
 		B166EF371D7E6FD900DB591E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B166EF431D7E6FD900DB591E /* Assets.xcassets */,
+				B166EF451D7E6FD900DB591E /* LaunchScreen.storyboard */,
+				B166EF481D7E6FD900DB591E /* Info.plist */,
 				B166EF381D7E6FD900DB591E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +189,51 @@
 			path = MKJFormUITests;
 			sourceTree = "<group>";
 		};
+		B166EF6A1D7E927100DB591E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				B166EF3D1D7E6FD900DB591E /* ViewController.h */,
+				B166EF3E1D7E6FD900DB591E /* ViewController.m */,
+				B166EF401D7E6FD900DB591E /* Main.storyboard */,
+				B166EF6B1D7E92AB00DB591E /* MKJFormViewController.h */,
+				B166EF6C1D7E92AB00DB591E /* MKJFormViewController.m */,
+				B166EF6D1D7E92AB00DB591E /* MKJFormViewController.xib */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		B166EF701D7EAE1800DB591E /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				B166EF761D7EAEC700DB591E /* MKJCarPlateCell.h */,
+				B166EF771D7EAEC700DB591E /* MKJCarPlateCell.m */,
+				B166EF781D7EAEC700DB591E /* MKJCarPlateCell.xib */,
+				B13788EE1D80F9E600659CF1 /* MKJFloatTextFieldCell.h */,
+				B13788EF1D80F9E600659CF1 /* MKJFloatTextFieldCell.m */,
+				B13788F01D80F9E600659CF1 /* MKJFloatTextFieldCell.xib */,
+				B156012A1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.h */,
+				B156012B1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.m */,
+				B13788E61D80F52700659CF1 /* XLFormRatingCell.h */,
+				B13788E71D80F52700659CF1 /* XLFormRatingCell.m */,
+				B13788E81D80F52700659CF1 /* XLFormRatingCell.xib */,
+				B13788EB1D80F58000659CF1 /* XLRatingView.h */,
+				B13788EC1D80F58000659CF1 /* XLRatingView.m */,
+				B13788F31D8106B400659CF1 /* MKJUploadImageCell.h */,
+				B13788F41D8106B400659CF1 /* MKJUploadImageCell.m */,
+				B13788F51D8106B400659CF1 /* MKJUploadImageCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		DE62D1D27D1ACB8918273972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ED26F8691F9E22277D023B7 /* Pods-MKJForm.debug.xcconfig */,
+				26442FBF16165C9EC19FA985 /* Pods-MKJForm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B166EF611D7E6FD900DB591E /* Build configuration list for PBXNativeTarget "MKJForm" */;
 			buildPhases = (
+				C324150E19D41BADAB4E4567 /* [CP] Check Pods Manifest.lock */,
 				B166EF301D7E6FD900DB591E /* Sources */,
 				B166EF311D7E6FD900DB591E /* Frameworks */,
 				B166EF321D7E6FD900DB591E /* Resources */,
+				02EA2F7E3BDAF7CF36A112ED /* [CP] Embed Pods Frameworks */,
+				E40EECA89E61A18EBB212232 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +341,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B166EF471D7E6FD900DB591E /* LaunchScreen.storyboard in Resources */,
+				B13788F71D8106B400659CF1 /* MKJUploadImageCell.xib in Resources */,
+				B13788EA1D80F52700659CF1 /* XLFormRatingCell.xib in Resources */,
+				B166EF7A1D7EAEC700DB591E /* MKJCarPlateCell.xib in Resources */,
 				B166EF441D7E6FD900DB591E /* Assets.xcassets in Resources */,
+				B13788F21D80F9E600659CF1 /* MKJFloatTextFieldCell.xib in Resources */,
 				B166EF421D7E6FD900DB591E /* Main.storyboard in Resources */,
+				B166EF6F1D7E92AB00DB591E /* MKJFormViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +367,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02EA2F7E3BDAF7CF36A112ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKJForm/Pods-MKJForm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C324150E19D41BADAB4E4567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E40EECA89E61A18EBB212232 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKJForm/Pods-MKJForm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B166EF301D7E6FD900DB591E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B166EF3F1D7E6FD900DB591E /* ViewController.m in Sources */,
+				B13788ED1D80F58000659CF1 /* XLRatingView.m in Sources */,
+				B13788E91D80F52700659CF1 /* XLFormRatingCell.m in Sources */,
+				B13788F61D8106B400659CF1 /* MKJUploadImageCell.m in Sources */,
 				B166EF3C1D7E6FD900DB591E /* AppDelegate.m in Sources */,
+				B156012C1D7FE9C1008B2414 /* FloatLabeledTextFieldCell.m in Sources */,
 				B166EF391D7E6FD900DB591E /* main.m in Sources */,
+				B166EF791D7EAEC700DB591E /* MKJCarPlateCell.m in Sources */,
+				B13788F11D80F9E600659CF1 /* MKJFloatTextFieldCell.m in Sources */,
+				B166EF6E1D7E92AB00DB591E /* MKJFormViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +570,11 @@
 		};
 		B166EF621D7E6FD900DB591E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED26F8691F9E22277D023B7 /* Pods-MKJForm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKJForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mikejing.MKJForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +583,11 @@
 		};
 		B166EF631D7E6FD900DB591E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26442FBF16165C9EC19FA985 /* Pods-MKJForm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MKJForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mikejing.MKJForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +659,7 @@
 				B166EF631D7E6FD900DB591E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B166EF641D7E6FD900DB591E /* Build configuration list for PBXNativeTarget "MKJFormTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +668,7 @@
 				B166EF661D7E6FD900DB591E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B166EF671D7E6FD900DB591E /* Build configuration list for PBXNativeTarget "MKJFormUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +677,7 @@
 				B166EF691D7E6FD900DB591E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

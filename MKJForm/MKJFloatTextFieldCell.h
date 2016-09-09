@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLFormBaseCell.h"
+#import <JVFloatLabeledTextField.h>
 
-@interface MKJFloatTextFieldCell : UITableViewCell
+extern NSString *const XLFormRowDescriporTypeFloat;
+
+@interface MKJFloatTextFieldCell : XLFormBaseCell
+@property (weak, nonatomic) IBOutlet UILabel *leftLabel;
+@property (weak, nonatomic) IBOutlet JVFloatLabeledTextField *textField;
+
 
 @end

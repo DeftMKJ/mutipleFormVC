@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLFormRatingCell.h"
 
-@interface MKJUploadImageCell : UITableViewCell
+extern NSString *const XLFormRowDescriptorTypeUpload;
 
+@interface MKJUploadImageCell : XLFormBaseCell
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView1;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView2;
 @end

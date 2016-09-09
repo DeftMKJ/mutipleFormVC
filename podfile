@@ -1,0 +1,9 @@
+platform:ios,'8.0'
+target 'MKJForm' do
+
+pod 'XLForm'
+pod 'JVFloatLabeledTextField'
+pod 'AXRatingView'
+pod 'LGAlertView'
+
+end

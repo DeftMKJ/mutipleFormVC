@@ -1,0 +1,21 @@
+PODS:
+  - AXRatingView (1.0.3)
+  - JVFloatLabeledTextField (1.1.1)
+  - LGAlertView (2.0.13)
+  - XLForm (3.2.0)
+
+DEPENDENCIES:
+  - AXRatingView
+  - JVFloatLabeledTextField
+  - LGAlertView
+  - XLForm
+
+SPEC CHECKSUMS:
+  AXRatingView: ccaadc1bbda99a4b7e1d556059482d2b933a9f4e
+  JVFloatLabeledTextField: 0e5524b097f102036214dd8279edc8ecf08b5e18
+  LGAlertView: 9a5dcbf4f81b02b718083539d7f222280adc9547
+  XLForm: 2250b4e96ab8ffa5f3355838c79edd90de451782
+
+PODFILE CHECKSUM: b4d85049dd0012ab25b7aa8f9c39fedd3a102295
+
+COCOAPODS: 1.0.1
